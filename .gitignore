@@ -1,0 +1,24 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Streamlit settings
+.streamlit/secrets.toml
+
+# Local research documents
+data/*.pdf
+
+# Model and generated files
+models/
+*.pkl
+*.joblib
+*.faiss
+
+# IDE files
+.idea/
